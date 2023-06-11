@@ -2,7 +2,7 @@
 
 This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s (RYM) category which encompasses DJ mixes and live electronics. 
 
-## Basic Taxonomy of Mixes
+## Taxonomy of Mixes
 
 <table>
 	<tr>
@@ -11,7 +11,7 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 	</tr>
 	<tr>
 		<th rowspan="2">Artist / Platform / Label</th>
-		<th rowspan="2">Podcast Episode</th>
+		<th rowspan="2">Podcast / Mix Series</th>
 		<th colspan="3">Radio</th>
 	</tr>
 	<tr>
@@ -64,3 +64,4 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 </table>
 
 ## Naming Precedence
+

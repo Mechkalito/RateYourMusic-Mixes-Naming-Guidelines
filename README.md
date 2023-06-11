@@ -169,7 +169,7 @@ Examples:
 URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/RADIO_SHOW_NAME`.
 
 ### E - Radio Residencies
-`HOST_NAME`'s&nbsp;`RADIO_NAME`&nbsp;`Show`
+`HOST_NAME``'s`&nbsp;`RADIO_NAME`&nbsp;`Show`
 
 Residency shows hosted by artists, labels, collectives, and event promotions. In order to differentiate them from guest mixes (C), the resident's name is included in the title and written in possessive form.
 

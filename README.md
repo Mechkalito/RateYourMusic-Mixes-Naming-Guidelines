@@ -188,7 +188,7 @@ Examples (label-hosted):
 #### NTS Radio Residency Shows
 URL for NTS Radio residency shows looks like this: `https://www.nts.live/shows/HOST_NAME`.
 #### Rinse FM Residency Shows
-Rinse FM lists all their current shows at [https://rinse.fm/shows/](here), where URL looks like this: `https://rinse.fm/shows/HOST_NAME`.
+Rinse FM lists all their current shows at [rinse.fm/shows/](https://rinse.fm/shows/), where URL looks like this: `https://rinse.fm/shows/HOST_NAME`.
 
 
 [^1]: Annual festival

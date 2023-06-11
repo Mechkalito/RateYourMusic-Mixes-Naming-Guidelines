@@ -106,7 +106,7 @@ Live recordings from radio booths and streaming platforms. Notable examples are 
 
 Examples:
 > "Tresor, Berlin" 
-> "Bassiani, Tbilisi" 
-> "fabric, London" 
-> "Fuse, Brussels" 
-> "Sub Club, Glasgow"
+  "Bassiani, Tbilisi" 
+  "fabric, London" 
+  "Fuse, Brussels" 
+  "Sub Club, Glasgow"

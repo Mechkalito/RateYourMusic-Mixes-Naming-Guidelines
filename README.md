@@ -92,15 +92,23 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 `NAMED_HOSTS` have precedence.  
 
 ## Individual Cases
+Information inside brackets (`[]`) is optional.
+
 ### A - Mixes hosted by an artist, platform, or a label
 #### A1
 `MIX_NAME`
 
 The most basic case where mix usually has a name.
+
+##### Boiler Room
+Working on this...
+
 #### A2 / A3
-`RADIO_NAME` / `STREAMING_PLATFORM_NAME`
+`RADIO_NAME`  
+`STREAMING_PLATFORM_NAME`
 
 Live recordings from radio booths and streaming platforms. Notable examples are **The Lot Radio** (Brooklyn), now defunct **Red Light Radio** (Amsterdam), **Future Intel** (The Hague), and **HÖR** (Berlin).  
+
 #### A4
 `VENUE_NAME`, `CITY_NAME`
 
@@ -111,3 +119,23 @@ Examples:
 > "Fuse, Brussels"  
 > "Sub Club, Glasgow"  
 
+#### A5
+`EVENT_SERIES_NAME` @ `VENUE_NAME`, `CITY_NAME`  
+Or just `EVENT_SERIES_NAME` if location is unknown
+
+Examples:
+> Patterns of Perception @ ://about blank, Berlin  
+> Klubnacht @ Berghain, Berlin  
+> Vault Sessions @ BRET, Amsterdam  
+> CALMA @ Zapadores, Madrid
+
+#### A6
+`FESTIVAL NAME` [`EDITION_NAME`] `YEAR`[: `STAGE_NAME`]
+
+Examples:
+> Dekmantel Festival 2017   
+> Burning Man 2014: Robot Heart  
+> CRSSD Festival Spring 2015  
+> CRSSD Festival Fall 2022
+
+### B - Podcasts and mix series

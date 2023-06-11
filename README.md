@@ -33,7 +33,7 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 		<th rowspan="6">Recorded Where?</th>
 		<th colspan="2">Home (Studio) Mix</th>
 		<th>1</th>
-		<td></td>
+		<td align="center">A1</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -88,14 +88,13 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 </table>
 
 ## Naming Precedence
-
 `NAMED_HOSTS` have precedence.  
 
 ## Individual Cases
-Information inside brackets (`[]`) is optional.
+Information inside brackets (`[]`) is optional. 
 
 ### A - Mixes hosted by an artist, platform, or a label
-#### A1
+#### A1 {#A1}
 `MIX_NAME`
 
 The most basic case where mix usually has a name.
@@ -110,18 +109,19 @@ Working on this...
 Live recordings from radio booths and streaming platforms. Notable examples are **The Lot Radio** (Brooklyn), now defunct **Red Light Radio** (Amsterdam), **Future Intel** (The Hague), and **HÖR** (Berlin).  
 
 #### A4
-`VENUE_NAME`, `CITY_NAME`
+`VENUE_NAME`&nbsp;[`(FLOOR_NAME)`]&nbsp;`,`&nbsp;&nbsp;`CITY_NAME`
 
 Examples:
 > "Tresor, Berlin"  
+> "Tresor (Globus), Berlin  
 > "Bassiani, Tbilisi"  
+> "Bassiani (Horoom), Tbilisi  
 > "fabric, London"  
 > "Fuse, Brussels"  
 > "Sub Club, Glasgow"  
 
 #### A5
-`EVENT_SERIES_NAME` @ `VENUE_NAME`, `CITY_NAME`  
-Or just `EVENT_SERIES_NAME` if location is unknown
+`EVENT_SERIES_NAME`&nbsp;`@`&nbsp;`VENUE_NAME`&nbsp;`,`&nbsp;&nbsp;`CITY_NAME`  
 
 Examples:
 > Patterns of Perception @ ://about blank, Berlin  
@@ -130,7 +130,8 @@ Examples:
 > CALMA @ Zapadores, Madrid
 
 #### A6
-`FESTIVAL NAME` [`EDITION_NAME`] `YEAR`[: `STAGE_NAME`]
+`FESTIVAL NAME`&nbsp;`{YEAR}`[`:`&nbsp;&nbsp;`STAGE_NAME`][^1]  
+`FESTIVAL NAME`&nbsp;[`EDITION_NAME`]&nbsp;`YEAR`[`:`&nbsp;&nbsp;`STAGE_NAME`][^2]
 
 Examples:
 > Dekmantel Festival 2017   
@@ -139,3 +140,10 @@ Examples:
 > CRSSD Festival Fall 2022
 
 ### B - Podcasts and mix series
+#### 
+`PODCAST_NAME`  
+`PODCAST_NAME`&nbsp;`{ENUMERATION}`
+
+
+[^1]: Annual festival
+[^2]: Biannual festival, rarely triannual

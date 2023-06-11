@@ -105,8 +105,9 @@ Live recordings from radio booths and streaming platforms. Notable examples are 
 `VENUE_NAME`, `CITY_NAME`
 
 Examples:
-> "Tresor, Berlin" 
-  "Bassiani, Tbilisi" 
-  "fabric, London" 
-  "Fuse, Brussels" 
-  "Sub Club, Glasgow"
+> "Tresor, Berlin"  
+> "Bassiani, Tbilisi"  
+> "fabric, London"  
+> "Fuse, Brussels"  
+> "Sub Club, Glasgow"  
+

@@ -6,17 +6,15 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 
 <table>
 	<tr>
-		<th colspan="3"></th>
+		<th colspan="3" rowspan="3"></th>
 		<th colspan="5">Hosted By?</th>
 	</tr>
 	<tr>
-		<th colspan="3"></th>
 		<th rowspan="2">Artist / Platform / Label</th>
 		<th rowspan="2">Podcast Episode</th>
 		<th colspan="3">Radio</th>
 	</tr>
 	<tr>
-		<th colspan="3"></th>
 		<th>Radio Guest Mix</th>
 		<th>Radio Show Mix</th>
 		<th>Radio Residency Mix</th>
@@ -64,3 +62,5 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 		<td></td>
 	</tr>
 </table>
+
+## Naming Precedence

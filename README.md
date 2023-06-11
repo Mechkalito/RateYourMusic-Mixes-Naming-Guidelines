@@ -2,6 +2,8 @@
 
 This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s (RYM) category which encompasses DJ mixes and live electronics. 
 
+This project has ==information preservation== as its main goal, since these recordings are often deleted and just temporarily hosted. 
+
 ## Taxonomy of Mixes
 
 <table>
@@ -171,7 +173,7 @@ URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/RADIO
 
 Residency shows hosted by artists, labels, collectives, and event promotions. In order to differentiate them from guest mixes (C), the resident's name is included in the title and written in possessive form.
 
-Time slot for these shows is usually 2 hours. If host is inviting guests, this runtime is usually split equally between them and the host, i.e. an hour each.  
+Time slot for these shows is usually 1 or 2 hours. If host is inviting guests in a longer time slot, this runtime is usually split equally between them, i.e. an hour each.  
 
 Examples (artist-hosted):
 > SPFDJ's Rinse FM Show  

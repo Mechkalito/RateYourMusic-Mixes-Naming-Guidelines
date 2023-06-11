@@ -6,11 +6,14 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 
 <table>
 	<tr>
-		<th colspan="4" rowspan="4"></th>
+		<th colspan="4" rowspan="5"></th>
 		<th colspan="5">Hosted By?</th>
 	</tr>
 	<tr>
-		<th rowspan="2">Artist / Platform / Label</th>
+		<th rowspan="3">Artist / Platform / Label</th>
+		<th colspan="4">Named Hosts</th>
+	</tr>
+	<tr>
 		<th rowspan="2">Podcast / Mix Series</th>
 		<th colspan="3">Radio</th>
 	</tr>
@@ -27,7 +30,7 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 		<th>E</th>
 	</tr>
 	<tr>
-		<th rowspan="5">Recorded Where?</th>
+		<th rowspan="6">Recorded Where?</th>
 		<th colspan="2">Home (Studio) Mix</th>
 		<th>1</th>
 		<td></td>
@@ -37,8 +40,8 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 		<td></td>
 	</tr>
 	<tr>
-		<th rowspan="4">Live Mix</th>
-		<th>Streaming Platform</th>
+		<th rowspan="5">Live Mix</th>
+		<th>Radio</th>
 		<th>2</th>
 		<td></td>
 		<td></td>
@@ -47,7 +50,7 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 		<td></td>
 	</tr>
 	<tr>
-		<th>Venue Recording</th>
+		<th>Streaming Platform</th>
 		<th>3</th>
 		<td></td>
 		<td></td>
@@ -56,7 +59,7 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 		<td></td>
 	</tr>
 	<tr>
-		<th>Event Series Recording</th>
+		<th>Venue</th>
 		<th>4</th>
 		<td></td>
 		<td></td>
@@ -65,8 +68,17 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 		<td></td>
 	</tr>
 	<tr>
-		<th>Festival Recording</th>
+		<th>Event Series</th>
 		<th>5</th>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Festival</th>
+		<th>6</th>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -77,3 +89,11 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 
 ## Naming Precedence
 
+`NAMED_HOSTS` have precedence.  
+
+## Individual Cases
+### A - Mixes hosted by an artist, platform, or a label
+#### A1
+The most basic case where mix usually has a name (`MIX_NAME`).  
+#### A2 / A3
+Live recordings from radio booths and streaming platforms. Notable examples are *The Lot Radio*, *Red Light Radio*, and *HÖR*.  

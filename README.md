@@ -2,7 +2,7 @@
 
 This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s (RYM) category which encompasses DJ mixes and live electronics. 
 
-This project has ==information preservation== as its main goal, since these recordings are often deleted and just temporarily hosted. 
+This project has **information preservation** as its main goal, since these recordings are often deleted and just temporarily hosted. 
 
 ## Taxonomy of Mixes
 

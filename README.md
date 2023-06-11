@@ -94,6 +94,19 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 ## Individual Cases
 ### A - Mixes hosted by an artist, platform, or a label
 #### A1
-The most basic case where mix usually has a name (`MIX_NAME`).  
+`MIX_NAME`
+
+The most basic case where mix usually has a name.
 #### A2 / A3
-Live recordings from radio booths and streaming platforms. Notable examples are *The Lot Radio*, *Red Light Radio*, and *HÖR*.  
+`RADIO_NAME` / `STREAMING_PLATFORM_NAME`
+
+Live recordings from radio booths and streaming platforms. Notable examples are **The Lot Radio** (Brooklyn), now defunct **Red Light Radio** (Amsterdam), **Future Intel** (The Hague), and **HÖR** (Berlin).  
+#### A4
+`VENUE_NAME`, `CITY_NAME`
+
+Examples:
+> "Tresor, Berlin" 
+> "Bassiani, Tbilisi" 
+> "fabric, London" 
+> "Fuse, Brussels" 
+> "Sub Club, Glasgow"

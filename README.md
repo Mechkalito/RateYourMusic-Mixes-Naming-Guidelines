@@ -93,8 +93,10 @@ This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s
 ## Individual Cases
 Information inside brackets (`[]`) is optional. 
 
-### A - Mixes hosted by an artist, platform, or a label
-#### A1 {#A1}
+*Placeholder terms* are written in uppercase with spaces substituted with underscores (`LIKE_THIS`), while *literal terms* are written capitalized using spaces (`Like This`).
+
+### A - Mixes Hosted by an Artist, Platform, or a Label
+#### A1
 `MIX_NAME`
 
 The most basic case where mix usually has a name.
@@ -102,13 +104,13 @@ The most basic case where mix usually has a name.
 ##### Boiler Room
 Working on this...
 
-#### A2 / A3
+#### A2 / A3 - Radio Booths & Streaming Platforms
 `RADIO_NAME`  
 `STREAMING_PLATFORM_NAME`
 
 Live recordings from radio booths and streaming platforms. Notable examples are **The Lot Radio** (Brooklyn), now defunct **Red Light Radio** (Amsterdam), **Future Intel** (The Hague), and **HÖR** (Berlin).  
 
-#### A4
+#### A4 - Venue Recordings
 `VENUE_NAME`&nbsp;[`(FLOOR_NAME)`]&nbsp;`,`&nbsp;&nbsp;`CITY_NAME`
 
 Examples:
@@ -120,7 +122,7 @@ Examples:
 > "Fuse, Brussels"  
 > "Sub Club, Glasgow"  
 
-#### A5
+#### A5 - Event Series
 `EVENT_SERIES_NAME`&nbsp;`@`&nbsp;`VENUE_NAME`&nbsp;`,`&nbsp;&nbsp;`CITY_NAME`  
 
 Examples:
@@ -129,9 +131,9 @@ Examples:
 > Vault Sessions @ BRET, Amsterdam  
 > CALMA @ Zapadores, Madrid
 
-#### A6
+#### A6 - Festivals
 `FESTIVAL NAME`&nbsp;`{YEAR}`[`:`&nbsp;&nbsp;`STAGE_NAME`][^1]  
-`FESTIVAL NAME`&nbsp;[`EDITION_NAME`]&nbsp;`YEAR`[`:`&nbsp;&nbsp;`STAGE_NAME`][^2]
+`FESTIVAL NAME`&nbsp;`EDITION_NAME`&nbsp;`YEAR`[`:`&nbsp;&nbsp;`STAGE_NAME`][^2]
 
 Examples:
 > Dekmantel Festival 2017   
@@ -139,10 +141,54 @@ Examples:
 > CRSSD Festival Spring 2015  
 > CRSSD Festival Fall 2022
 
-### B - Podcasts and mix series
-#### 
+### B - Podcasts & Mix Series 
 `PODCAST_NAME`  
 `PODCAST_NAME`&nbsp;`{ENUMERATION}`
+
+### C - Radio Guest Mixes
+`RADIO_NAME`
+
+Radio mixes which are not part of some radio show.
+
+#### NTS Radio Guest Mixes
+URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/guests ...`.
+
+### D - Radio Shows
+`RADIO_SHOW_NAME`
+
+Radio shows that have a name, which is *not* a host's name.
+
+Examples:
+> Beats in Space  
+> 88 Transition  
+> The Space Between Spaces
+
+#### NTS Radio Shows
+URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/RADIO_SHOW_NAME`.
+
+### E - Radio Residencies
+`HOST_NAME`'s&nbsp;`RADIO_NAME`&nbsp;`Show`
+
+Residency shows hosted by artists, labels, collectives, and event promotions. In order to differentiate them from guest mixes (C), the resident's name is included in the title and written in possessive form.
+
+Time slot for these shows is usually 2 hours. If host is inviting guests, this runtime is usually split equally between them and the host, i.e. an hour each.  
+
+Examples (artist-hosted):
+> SPFDJ's Rinse FM Show  
+> Bicep's NTS Radio Show  
+> DJ Nobu's NTS Radio Show
+
+Examples (collective-hosted):
+> MARICAS' Rinse FM Show
+
+Examples (label-hosted):
+> Hessle Audio's Rinse FM Show  
+> Huntleys + Palmers' Rinse FM Show
+
+#### NTS Radio Residency Shows
+URL for NTS Radio residency shows looks like this: `https://www.nts.live/shows/HOST_NAME`.
+#### Rinse FM Residency Shows
+Rinse FM lists all their current shows at [https://rinse.fm/shows/](here), where URL looks like this: `https://rinse.fm/shows/HOST_NAME`.
 
 
 [^1]: Annual festival

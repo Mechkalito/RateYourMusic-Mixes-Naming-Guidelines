@@ -167,7 +167,7 @@ Examples:
 
 <h4 id="b5">B5 - Event Series Released as Podcast Episode</h4>
 
-This case is combination of `B` and `A5`, with `B` having precedence. 
+Combination of `B` and `A5`, separated with colon (`:`), with `B` having precedence. 
 
 I tend to avoid including `A5` information in the title, unless mix series itself is focused on the live recordings.
 
@@ -177,10 +177,7 @@ Examples:
 
 <h4 id="b6">B6 - Festival Recordings Released as Podcast Episode</h4>
 
-`PODCAST_NAME`&nbsp;`:`&nbsp;&nbsp;`FESTIVAL NAME`&nbsp;`{YEAR}`  
-`PODCAST_NAME`&nbsp;`{ENUMERATION}`&nbsp;`:`&nbsp;&nbsp;`FESTIVAL NAME`&nbsp;`{YEAR}` 
-
-This case is combination of `B` and `A6`, with `B` having precedence. 
+Combination of `B` and `A6`, separated with colon (`:`), with `B` having precedence. 
 
 Examples:
 > TRAX.366: Paral·lel Festival 2019  

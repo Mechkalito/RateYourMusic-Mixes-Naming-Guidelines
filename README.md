@@ -100,26 +100,31 @@ Main goals are **information preservation** and **conciseness** when it comes to
 `NAMED_HOSTS` have precedence.  
 
 <h2>Individual Cases</h2>
+
 Information inside brackets (`[]`) is optional. 
 
 *Placeholder terms* are written in uppercase with spaces substituted with underscores (`LIKE_THIS`), while *literal terms* are written capitalized using spaces (`Like This`).
 
 <h3 id="a">A - Mixes Hosted by an Artist, Platform, or a Label</h3>
 <h4 id="a1">A1</h4>
+
 `MIX_NAME`
 
 The most basic case where mix usually has a name.
 
 <h5>Boiler Room</h5>
+
 Working on this...
 
 <h4 id="a2-a3">A2 / A3 - Radio Booths & Streaming Platforms</h4>
+
 `RADIO_NAME`  
 `STREAMING_PLATFORM_NAME`
 
 Live recordings from radio booths and streaming platforms. Notable examples are **The Lot Radio** (Brooklyn), now defunct **Red Light Radio** (Amsterdam), **Future Intel** (The Hague), and **HÖR** (Berlin).  
 
 <h4 id="a4">A4 - Venue Recordings</h4>
+
 `VENUE_NAME`&nbsp;[`(FLOOR_NAME)`]&nbsp;`,`&nbsp;&nbsp;`CITY_NAME`
 
 Examples:
@@ -132,6 +137,7 @@ Examples:
 > "Sub Club, Glasgow"  
 
 <h4 id="a5">A5 - Event Series</h4>
+
 `EVENT_SERIES_NAME`&nbsp;`@`&nbsp;`VENUE_NAME`&nbsp;`,`&nbsp;&nbsp;`CITY_NAME`  
 
 Examples:
@@ -141,6 +147,7 @@ Examples:
 > CALMA @ Zapadores, Madrid
 
 <h4 id="a6">A6 - Festivals</h4>
+
 `FESTIVAL NAME`&nbsp;`{YEAR}`[`:`&nbsp;&nbsp;`STAGE_NAME`][^1]  
 `FESTIVAL NAME`&nbsp;`EDITION_NAME`&nbsp;`YEAR`[`:`&nbsp;&nbsp;`STAGE_NAME`][^2]
 
@@ -151,18 +158,22 @@ Examples:
 > CRSSD Festival Fall 2022
 
 <h3 id="b">B - Podcasts & Mix Series</h3> 
+
 `PODCAST_NAME`  
 `PODCAST_NAME`&nbsp;`{ENUMERATION}`
 
 <h3 id="c">C - Radio Guest Mixes</h3>
+
 `RADIO_NAME`
 
 Radio mixes which are not part of some radio show.
 
 <h4>NTS Radio Guest Mixes</h4>
+
 URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/guests ...`.
 
 <h3 id="d">D - Radio Shows</h3>
+
 `RADIO_SHOW_NAME`
 
 Radio shows that have a name, which is *not* a host's name.
@@ -173,9 +184,11 @@ Examples:
 > The Space Between Spaces
 
 <h4>NTS Radio Shows</h4>
+
 URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/RADIO_SHOW_NAME`.
 
 <h3 id="e">E - Radio Residencies</h3>
+
 `HOST_NAME`&nbsp;`'s`&nbsp;`RADIO_NAME`&nbsp;`Show`
 
 Residency shows hosted by artists, labels, collectives, and event promotions. In order to differentiate them from guest mixes (C), the resident's name is included in the title and written in possessive form.
@@ -195,8 +208,10 @@ Examples (label-hosted):
 > Huntleys + Palmers' Rinse FM Show
 
 <h4>NTS Radio Residency Shows</h4>
+
 URL for NTS Radio residency shows looks like this: `https://www.nts.live/shows/HOST_NAME`.
 <h4>Rinse FM Residency Shows</h4>
+
 Rinse FM lists all their current shows at [rinse.fm/shows/](https://rinse.fm/shows/), where show-specific URL looks like this: `https://rinse.fm/shows/HOST_NAME`.
 
 

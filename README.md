@@ -96,6 +96,7 @@ Main goals are **information preservation** and **conciseness** when it comes to
 </table>
 
 <h2>Naming Precedence</h2>
+
 `NAMED_HOSTS` have precedence.  
 
 <h2>Individual Cases</h2>

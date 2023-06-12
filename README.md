@@ -6,6 +6,7 @@ The problems that this project addresses are:
 <ul>
 	<li>Current RYM framework is unable to accommodate recordings described below, since it was created in the pre-internet era, and is oriented around physical releases.</li>
 	<li>These releases are frequently deleted and just temporarily hosted.</li>
+	<li>There isn't any naming convention, which produces chaotic outcomes.</li>
 </ul>
 
 Main goals are **information preservation** and **conciseness** when it comes to information presented to the users. This means that information supported by the website's framework, should be omitted from the title and entered in the corresponding fields, like artist's name, release date, and recording date. 
@@ -79,7 +80,7 @@ Main goals are **information preservation** and **conciseness** when it comes to
 		<th>Event Series</th>
 		<th>5</th>
 		<td><a href="#a5">A5</a></td>
-		<td></td>
+		<td><a href="#b5">B5</a></td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -88,7 +89,7 @@ Main goals are **information preservation** and **conciseness** when it comes to
 		<th>Festival</th>
 		<th>6</th>
 		<td><a href="#a6">A6</a></td>
-		<td></td>
+		<td><a href="#b6">B6</a></td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -101,7 +102,9 @@ Main goals are **information preservation** and **conciseness** when it comes to
 
 <h2>Individual Cases</h2>
 
-Information inside brackets (`[]`) is optional. 
+- Information inside brackets (`[]`) is optional. *See [A6](#a6)*
+- Colon (`:`) is used to separate different information groups, where information on the left side has precedence. *See [B6](#b6)* 
+- Double quotation marks (`""`) is used for mixes that have names, and single quotation marks (`''`) for quotation inside those names. 
 
 *Placeholder terms* are written in uppercase with spaces substituted with underscores (`LIKE_THIS`), while *literal terms* are written capitalized using spaces (`Like This`).
 
@@ -161,6 +164,27 @@ Examples:
 
 `PODCAST_NAME`  
 `PODCAST_NAME`&nbsp;`{ENUMERATION}`
+
+<h4 id="b5">B5 - Event Series Released as Podcast Episode</h4>
+
+This case is combination of `B` and `A5`, with `B` having precedence. 
+
+I tend to avoid including `A5` information in the title, unless mix series itself is focused on the live recordings.
+
+Examples:
+> ani/live Eight: GROOVY GROOVY  
+> MNMT Recordings: FUSION @ VENT, Tokyo
+
+<h4 id="b6">B6 - Festival Recordings Released as Podcast Episode</h4>
+
+`PODCAST_NAME`&nbsp;`:`&nbsp;&nbsp;`FESTIVAL NAME`&nbsp;`{YEAR}`  
+`PODCAST_NAME`&nbsp;`{ENUMERATION}`&nbsp;`:`&nbsp;&nbsp;`FESTIVAL NAME`&nbsp;`{YEAR}` 
+
+This case is combination of `B` and `A6`, with `B` having precedence. 
+
+Examples:
+> TRAX.366: Paral·lel Festival 2019  
+> ani/live Ten: Monument Festival 2022
 
 <h3 id="c">C - Radio Guest Mixes</h3>
 

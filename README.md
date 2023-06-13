@@ -22,7 +22,7 @@ When it comes to information presented to the users, **conciseness** is preferre
 	</tr>
 	<tr>
 		<th rowspan="3">Artist / Platform / Label</th>
-		<th colspan="4">Named Hosts</th>
+		<th colspan="4">Dedicated Hosts</th>
 	</tr>
 	<tr>
 		<th rowspan="2">Podcast / Mix Series</th>
@@ -97,7 +97,7 @@ When it comes to information presented to the users, **conciseness** is preferre
 
 <h2>Naming Precedence</h2>
 
-`NAMED_HOSTS` have precedence.  
+`DEDICATED_HOSTS` have precedence.  
 
 <h2>Individual Cases</h2>
 

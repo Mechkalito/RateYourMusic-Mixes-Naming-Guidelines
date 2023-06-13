@@ -2,14 +2,14 @@
 
 This is a nomenclature proposal for [RateYourMusic](https://rateyourmusic.com)'s (RYM) category which encompasses DJ mixes and live electronics. 
 
-The problems that this project addresses are:
+Problems this proposal is addressing:
 <ul>
-	<li>Current RYM framework is unable to accommodate recordings described below, since it was created in the pre-internet era, and is oriented around physical releases.</li>
+	<li>Current RYM framework is unable to accommodate non-commercially released DJ mixes and live electronics, since it was created in the pre-internet era, and is oriented around physical releases.</li>
 	<li>These releases are frequently deleted and just temporarily hosted.</li>
-	<li>There isn't any naming convention, which produces chaotic outcomes.</li>
+	<li>This temporary hosting creates archival problem, if release has been added with arbitrary title.</li>
 </ul>
 
-Main goals are **information preservation** and **conciseness** when it comes to information presented to the users. This means that information supported by the website's framework, should be omitted from the title and entered in the corresponding fields, like artist's name, release date, and recording date. 
+Main goals with this project are **information preservation** and **conciseness** when it comes to information presented to the users. This means that information supported by the website's framework, should be *omitted* from the title and entered in the corresponding fields, like artist's name, release date, and recording date. Additional release fields or attributes on website are desirable.  
 
 <h2>Taxonomy of Mixes</h2>
 
@@ -89,10 +89,7 @@ Main goals are **information preservation** and **conciseness** when it comes to
 		<th>Festival</th>
 		<th>6</th>
 		<td><a href="#a6">A6</a></td>
-		<td><a href="#b6">B6</a></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td colspan="4"><a href="#bcde6">B6 / C6 / D6 / E6</a></td>
 	</tr>
 </table>
 
@@ -102,11 +99,12 @@ Main goals are **information preservation** and **conciseness** when it comes to
 
 <h2>Individual Cases</h2>
 
-- Information inside brackets (`[]`) is optional. *See [A6](#a6)*
-- Colon (`:`) is used to separate different information groups, where information on the left side has precedence. *See [B6](#b6)* 
+- Information inside brackets (`[]`) is optional. *See [A4](#a4), [A6](#a6)*
+- Colon (`:`) is used to separate different information types, where information on the left side has precedence. *See [A4](#a4), [A6](#a6), [BCDE6](#bcde6)* 
 - Double quotation marks (`""`) is used for mixes that have names, and single quotation marks (`''`) for quotation inside those names. 
-
-*Placeholder terms* are written in uppercase with spaces substituted with underscores (`LIKE_THIS`), while *literal terms* are written capitalized using spaces (`Like This`).
+- Multiplication sign (`×`), not the letter *x*, is used for collaborations between two or more entities.
+- vertical bar (`|`) signifies "or".
+- *Placeholder terms* are written in uppercase with spaces substituted with underscores (`LIKE_THIS`), while *literal terms* are written capitalized using spaces (`Like This`).
 
 <h3 id="a">A - Mixes Hosted by an Artist, Platform, or a Label</h3>
 <h4 id="a1">A1</h4>
@@ -114,10 +112,6 @@ Main goals are **information preservation** and **conciseness** when it comes to
 `MIX_NAME`
 
 The most basic case where mix usually has a name.
-
-<h5>Boiler Room</h5>
-
-Working on this...
 
 <h4 id="a2-a3">A2 / A3 - Radio Booths & Streaming Platforms</h4>
 
@@ -160,10 +154,23 @@ Examples:
 > CRSSD Festival Spring 2015  
 > CRSSD Festival Fall 2022
 
+<h3 id="bcde6">Festival Recordings Released as Podcast Episode, or Aired on Radio</h3>
+
+Combination of `B` | `C` | `D` | `E` and `6`, separated with colon (`:`), with `B` | `C` | `D` | `E` having precedence. 
+
+Festivals are big events, and for that reason this information is eligible to be included in the title.
+
+Examples:
+> TRAX.366: Paral·lel Festival 2019  
+> ani/live Ten: Monument Festival 2022  
+> Hessle Audio's Rinse FM Show: Club Night Club
+
 <h3 id="b">B - Podcasts & Mix Series</h3> 
 
 `PODCAST_NAME`  
-`PODCAST_NAME`&nbsp;`{ENUMERATION}`
+`PODCAST_NAME`&nbsp;`:`&nbsp;&nbsp;`"`&nbsp;`MIX_NAME`&nbsp;`"`   
+`PODCAST_NAME`&nbsp;`{ENUMERATION}`  
+`PODCAST_NAME`&nbsp;`{ENUMERATION}`&nbsp;`:`&nbsp;&nbsp;`"`&nbsp;`MIX_NAME`&nbsp;`"`
 
 <h4 id="b5">B5 - Event Series Released as Podcast Episode</h4>
 
@@ -175,23 +182,15 @@ Examples:
 > ani/live Eight: GROOVY GROOVY  
 > MNMT Recordings: FUSION @ VENT, Tokyo
 
-<h4 id="b6">B6 - Festival Recordings Released as Podcast Episode</h4>
-
-Combination of `B` and `A6`, separated with colon (`:`), with `B` having precedence. 
-
-Examples:
-> TRAX.366: Paral·lel Festival 2019  
-> ani/live Ten: Monument Festival 2022
-
 <h3 id="c">C - Radio Guest Mixes</h3>
 
 `RADIO_NAME`
 
 Radio mixes which are not part of some radio show.
 
-<h4>NTS Radio Guest Mixes</h4>
+<h4 id="nts-guest">NTS Radio Guest Mixes</h4>
 
-URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/guests ...`.
+URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/guests ...`. *Compare with [this](#nts-named-show) and [this](#nts-residency).*
 
 <h3 id="d">D - Radio Shows</h3>
 
@@ -204,15 +203,15 @@ Examples:
 > 88 Transition  
 > The Space Between Spaces
 
-<h4>NTS Radio Shows</h4>
+<h4 id="nts-named-show">NTS Radio Named Shows</h4>
 
-URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/RADIO_SHOW_NAME`.
+URL for NTS Radio guest mixes looks like this: `https://www.nts.live/shows/RADIO_SHOW_NAME`. *Compare with [this](#nts-guest) and [this](#nts-residency).*
 
 <h3 id="e">E - Radio Residencies</h3>
 
 `HOST_NAME`&nbsp;`'s`&nbsp;`RADIO_NAME`&nbsp;`Show`
 
-Residency shows hosted by artists, labels, collectives, and event promotions. In order to differentiate them from guest mixes (C), the resident's name is included in the title and written in possessive form.
+Residency shows hosted by artists, labels, collectives, clubs, and event promotions. In order to differentiate them from guest mixes (`C`), the resident's name is included in the title and written in possessive form.
 
 Time slot for these shows is usually 1 or 2 hours. If host is inviting guests in a longer time slot, this runtime is usually split equally between them, i.e. an hour each.  
 
@@ -228,12 +227,40 @@ Examples (label-hosted):
 > Hessle Audio's Rinse FM Show  
 > Huntleys + Palmers' Rinse FM Show
 
-<h4>NTS Radio Residency Shows</h4>
+<h4 id="nts-residency">NTS Radio Residency Shows</h4>
 
-URL for NTS Radio residency shows looks like this: `https://www.nts.live/shows/HOST_NAME`.
+URL for NTS Radio residency shows looks like this: `https://www.nts.live/shows/HOST_NAME`. *Compare with [this](#nts-guest) and [this](#nts-named-show).*
+
 <h4>Rinse FM Residency Shows</h4>
 
 Rinse FM lists all their current shows at [rinse.fm/shows/](https://rinse.fm/shows/), where show-specific URL looks like this: `https://rinse.fm/shows/HOST_NAME`.
+
+<h2>Special Cases</h2>
+
+<h3>Collaborations</h3>
+
+`ENTITY_ONE`&nbsp;`×`&nbsp;`ENTITY_TWO`
+
+Entities are platforms, promotions, music collectives, labels.
+
+Peculiar example is *Amsterdam Dance Event*, an Amsterdam-based conference that hosts multiple promotions. I would suggest to separate it in the title with vertical bar (`|`).
+
+Examples:
+> HÖR × Herrensauna  
+> Vault Sessions × KHIDI | ADE 2022  
+> Intercell × Perc Trax | ADE 2019
+
+<h3>Boiler Room</h3>
+
+`Boiler Room`&nbsp;(`CITY_NAME`&nbsp;`|`&nbsp;`COUNTRY_NAME`)[&nbsp;`:`&nbsp;&nbsp;`VENUE_NAME`]
+
+Examples:
+> Boiler Room London  
+> Boiler Room Tbilisi: Bassiani  
+> Boiler Room × Dekmantel Festival 2016  
+> Boiler Room × AVA Festival 2022  
+> Boiler Room × DGTL Amsterdam 2023  
+
 
 
 [^1]: Annual festival

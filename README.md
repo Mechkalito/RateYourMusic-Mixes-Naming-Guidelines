@@ -105,7 +105,7 @@ When it comes to information presented to the users, **conciseness** is preferre
 - Colon (`:`) is used to separate different information types, where information on the left side has precedence. *See [A4](#a4), [A6](#a6), [BCDE6](#bcde6)* 
 - Double quotation marks (`""`) is used for mixes that have names, and single quotation marks (`''`) for quotation inside those names. 
 - Multiplication sign (`×`), not the letter *x*, is used for collaborations between two or more entities.
-- vertical bar (`|`) signifies "or".
+- Vertical bar (`|`) signifies "or".
 - *Placeholder terms* are written in uppercase with spaces substituted with underscores (`LIKE_THIS`), while *literal terms* are written capitalized using spaces (`Like This`).
 
 <h3 id="a">A - Mixes Hosted by an Artist, Platform, or a Label</h3>

@@ -9,7 +9,9 @@ Problems this proposal is addressing:
 	<li>This temporary hosting creates archival problem, if release has been added with arbitrary title.</li>
 </ul>
 
-Main goals with this project are **information preservation** and **conciseness** when it comes to information presented to the users. This means that information supported by the website's framework, should be *omitted* from the title and entered in the corresponding fields, like artist's name, release date, and recording date. Additional release fields or attributes on website are desirable.  
+Since majority of these recordings are going to be deleted at some point in the not so distant future, this project has **information preservation** as its main goal.  
+
+When it comes to information presented to the users, **conciseness** is preferred. In practice, this means that information supported by the website's framework, should be *omitted* from the title and entered in the corresponding fields, like artist's name, release date, and recording date. Additional release fields or attributes on website are desirable.  
 
 <h2>Taxonomy of Mixes</h2>
 

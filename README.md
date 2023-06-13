@@ -156,7 +156,7 @@ Examples:
 > CRSSD Festival Spring 2015  
 > CRSSD Festival Fall 2022
 
-<h3 id="bcde6">Festival Recordings Released as Podcast Episode, or Aired on Radio</h3>
+<h5 id="bcde6">Festival Recordings Released as Podcast Episode, or Aired on Radio</h5>
 
 Combination of `B` | `C` | `D` | `E` and `6`, separated with colon (`:`), with `B` | `C` | `D` | `E` having precedence. 
 
